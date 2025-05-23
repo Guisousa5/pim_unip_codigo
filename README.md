@@ -1,4 +1,4 @@
-##Projeto Integrado Multidisciplinar: Plataforma de Educação Digital Segura
+## Projeto Integrado Multidisciplinar: Plataforma de Educação Digital Segura
 
 ## Descrição do Projeto
 Este repositório apresenta um exemplo de solução para o Projeto Integrado Multidisciplinar (PIM) do curso de CST em Análise e Desenvolvimento de Sistemas da UNIP. O projeto visa a criação de uma Plataforma de Educação Digital Segura para Inclusão Digital e Proteção de Dados, conforme o tema proposto pelo PIM.
