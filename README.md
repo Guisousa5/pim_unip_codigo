@@ -1,88 +1,62 @@
-
-# PIM - Projeto Integrado Multidisciplinar: Plataforma de Educação Digital Segura
+##Projeto Integrado Multidisciplinar: Plataforma de Educação Digital Segura
 
 ## Descrição do Projeto
+Este repositório apresenta um exemplo de solução para o Projeto Integrado Multidisciplinar (PIM) do curso de CST em Análise e Desenvolvimento de Sistemas da UNIP. O projeto visa a criação de uma Plataforma de Educação Digital Segura para Inclusão Digital e Proteção de Dados, conforme o tema proposto pelo PIM.
 
-Este projeto, desenvolvido como parte da disciplina de **Projeto Integrado Multidisciplinar (PIM)** do curso de CST em Análise e Desenvolvimento de Sistemas da UNIP, visa a criação de uma **Plataforma de Educação Digital Segura** para inclusão digital e proteção de dados.
+Este exemplo de código foi desenvolvido para ilustrar como os conceitos e requisitos das diversas disciplinas do primeiro semestre podem ser integrados em uma aplicação prática. Ele abrange a análise de requisitos para uma plataforma digital segura, focando na educação digital e inclusão tecnológica, com atenção especial ao pensamento lógico computacional, infraestrutura computacional e cibersegurança.
 
-O objetivo geral é realizar o levantamento e análise de requisitos para o desenvolvimento de uma plataforma digital segura, considerando conceitos de pensamento lógico computacional, infraestrutura computacional e cibersegurança. O sistema foi projetado para permitir que usuários com diferentes níveis de conhecimento acessem conteúdos interativos sobre tecnologia da informação, programação básica e boas práticas de segurança digital, respeitando a LGPD (Lei Geral de Proteção de Dados) e princípios éticos.
+O sistema permite que usuários com diferentes níveis de conhecimento acessem conteúdos interativos sobre tecnologia da informação, programação básica e boas práticas de segurança digital, sempre respeitando a LGPD e princípios éticos.
 
-A plataforma foi desenvolvida em **Python**, com dados armazenados em arquivos **JSON**, incorporando funcionalidades essenciais para o aprendizado e a segurança digital, além de oferecer estatísticas de uso para análise de desempenho.
-
----
-
-## Objetivos
+## Objetivos Atendidos pelo Exemplo
 
 ### Objetivo Geral
-
-- Realizar o levantamento e análise de requisitos para o desenvolvimento de uma plataforma digital segura voltada para a educação digital e inclusão tecnológica, considerando pensamento lógico computacional, infraestrutura computacional e cibersegurança.
+Realizar o levantamento e análise de requisitos para o desenvolvimento de uma plataforma digital segura voltada para a educação digital e inclusão tecnológica, considerando conceitos de pensamento lógico computacional, infraestrutura computacional e cibersegurança. O código reflete a estrutura de um sistema que atende a esses requisitos.
 
 ### Objetivos Específicos
+- **Aplicar conceitos matemáticos e estatísticos** para análise de desempenho dos usuários na plataforma. O código inclui uma função para gerar estatísticas como média, mediana e moda da idade dos usuários e do tempo de estudo, e o curso mais popular.
+  
+- **Desenvolver um sistema baseado em Python** para ensino de lógica computacional e programação básica. O projeto é totalmente desenvolvido em Python e simula a oferta de cursos sobre lógica e programação.
+  
+- **Garantir a privacidade e proteção de dados** dos usuários conforme a LGPD. A implementação inclui a criptografia de senhas usando SHA-256, um passo fundamental para a proteção de dados pessoais.
+  
+- **Implementar diretrizes de cibersegurança** para evitar ataques cibernéticos e vazamento de dados. O projeto contém uma seção dedicada a "Dicas de Segurança Digital", abordando senhas seguras, proteção contra phishing e backup de dados, e utiliza criptografia para as senhas.
+  
+- **Incluir princípios de ética e sustentabilidade digital**, incentivando o uso responsável da tecnologia. Embora não haja uma implementação direta de estratégias de consumo de energia, o projeto visa a cidadania digital e o uso ético da tecnologia.
 
-- Aplicar conceitos matemáticos e estatísticos para análise de desempenho dos usuários na plataforma.
-- Desenvolver um sistema em Python para ensino de lógica computacional e programação básica.
-- Definir requisitos de infraestrutura computacional, contemplando desempenho, escalabilidade e segurança.
-- Garantir a privacidade e proteção de dados dos usuários conforme a LGPD.
-- Implementar diretrizes de cibersegurança para evitar ataques e vazamento de dados.
-- Incluir princípios de ética e sustentabilidade digital, incentivando o uso responsável da tecnologia.
+## Disciplinas Contempladas (Exemplo de Aplicação)
+Este projeto demonstra a integração das seguintes disciplinas:
 
----
+- **Matemática e Estatística**: Através do módulo de estatísticas que calcula média, moda e mediana de dados de usuários.
+  
+- **Pensamento Lógico Computacional Com Python**: Base para o desenvolvimento do programa principal, que gerencia as informações dos usuários e cursos em Python.
+  
+- **Infraestrutura Computacional**: A estrutura do projeto considera requisitos básicos de armazenamento de dados e segurança, embora a escolha detalhada de sistemas operacionais e arquitetura seja um ponto a ser desenvolvido na documentação do PIM.
+  
+- **Tecnologia da Informação e da Comunicação**: O próprio conceito da plataforma digital e sua interação com o usuário demonstram a aplicação de TICs.
+  
+- **Cibersegurança**: Implementação de criptografia de senhas e fornecimento de dicas de segurança.
+  
+- **LGPD**: Preocupação com a proteção de dados através da criptografia de informações sensíveis (senhas) e foco na privacidade do usuário.
+  
+- **Ética, Cidadania e Sustentabilidade**: O projeto, ao promover a inclusão digital e a segurança, alinha-se aos princípios de cidadania digital e uso responsável da tecnologia.
+  
+- **Direitos Humanos**: A inclusão digital para comunidades carentes está diretamente ligada à promoção de direitos humanos, embora uma estratégia de comunicação específica para a ONG não esteja codificada aqui.
 
-## Disciplinas Contempladas
-
-**Base:**
-
-- Matemática e Estatística  
-- Pensamento Lógico Computacional com Python  
-- Infraestrutura Computacional  
-- Tecnologia da Informação e da Comunicação  
-- Cibersegurança  
-- LGPD  
-
-**Complementar:**
-
-- Ética, Cidadania e Sustentabilidade  
-- Direitos Humanos  
-
----
-
-## Contextualização do Caso
-
-Este projeto atende à necessidade de uma ONG voltada para inclusão digital que busca oferecer um ambiente de aprendizado para comunidades carentes e estudantes de escolas públicas. A plataforma disponibiliza cursos básicos sobre pensamento lógico computacional, segurança digital e programação em Python, de forma interativa e acessível, garantindo a proteção dos dados dos usuários e promovendo cidadania digital, alinhada aos princípios de direitos humanos e ética no uso da tecnologia.
-
----
-
-## Tecnologias e Diretrizes Utilizadas
-
-- **Programa no modo Console:** Desenvolvido integralmente em Python.
-- **Dados:** Armazenados em arquivos JSON para consulta, alteração e análise estatística.
-- **Infraestrutura Computacional:** Definição da arquitetura, incluindo armazenamento e requisitos de segurança.
-- **Segurança e LGPD:** Controle de acesso via login com senha criptografada (SHA-256), criptografia dos dados.
-- **Estatísticas e Relatórios:** Análise do desempenho dos usuários utilizando média, moda e mediana.
-
----
-
-## Funcionalidades Implementadas
-
-- **Cadastro de Usuários:** Registro com armazenamento seguro de senhas via criptografia SHA-256.
-- **Login Seguro:** Autenticação com verificação de senha criptografada.
-- **Gestão de Cursos:**  
-  - Cursos pré-definidos em lógica, Python e segurança digital.  
-  - Listagem detalhada de cursos com descrição, duração e tópicos.  
-  - Simulação de início e conclusão com registro do tempo e progresso do usuário.
-- **Acompanhamento de Progresso:** Visualização do número de cursos concluídos, percentual de conclusão e tempo total de estudo.
-- **Estatísticas da Plataforma:** Relatórios com total de usuários, acessos, média/moda/mediana das idades e tempo de estudo, curso mais popular.
-- **Dicas de Segurança Digital:** Seção dedicada a boas práticas online.
-- **Persistência de Dados:** Manutenção dos dados de usuários, cursos e acessos em arquivos JSON.
-
----
-
-## Como Executar o Projeto
-
-1. Clone o repositório ou baixe o arquivo `main.py`.
-2. Certifique-se de ter o **Python 3.x** instalado em sua máquina.
+## Como Executar Este Exemplo
+1. Clone o repositório ou baixe o arquivo `plataforma.py`.
+2. Certifique-se de ter o Python 3.x instalado em sua máquina.
 3. Abra o terminal ou prompt de comando no diretório onde o arquivo `plataforma.py` está salvo.
 4. Execute o script com o comando:
 
-```bash
-python plataforma.py
+   ```bash
+   python plataforma.py
+   ```
+
+O menu principal da plataforma será exibido, permitindo a interação com as funcionalidades.
+
+## Requisitos e Conformidade
+Este código exemplo foi desenvolvido seguindo as diretrizes do PIM do 1º semestre de 2025, incluindo:
+
+- **Programa no modo Console**: Desenvolvido em Python.
+- **Dados em JSON**: As informações de usuários, cursos e acessos são salvas em arquivos `.json` em disco.
+- **Repositório Público**: O código deve ser disponibilizado em um repositório como o GitHub, tornando-o acessível à comunidade.
